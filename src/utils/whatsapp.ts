@@ -1,5 +1,5 @@
-import { Product } from '../config/products';
-import { contactInfo } from '../config/siteConfig';
+import { Product } from "../config/products";
+import { contactInfo } from "../config/siteConfig";
 
 export const generateWhatsAppLink = (product: Product): string => {
   const message = `Hello Krosha! 🧶
@@ -20,12 +20,13 @@ Thank you! 💕`;
 
 export const openWhatsApp = (product: Product): void => {
   const link = generateWhatsAppLink(product);
-  window.open(link, '_blank');
+  window.open(link, "_blank");
 };
 
 export const contactViaWhatsApp = (customMessage?: string): void => {
-  const message = customMessage || 'Hello Krosha! 🧶 I have a question about your products.';
+  const message =
+    customMessage || "Hello Krosha! 🧶 I have a question about your products.";
   const encodedMessage = encodeURIComponent(message);
   const link = `https://wa.me/${contactInfo.whatsapp}?text=${encodedMessage}`;
-  window.open(link, '_blank');
+  window.open(link, "_blank");
 };
