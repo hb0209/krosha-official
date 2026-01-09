@@ -21,3 +21,6 @@ dist-ssr
 *.sln
 *.sw?
 .env
+
+# Image compression temp files
+src/assets/product/.temp-compressed
