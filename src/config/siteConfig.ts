@@ -18,14 +18,14 @@ export const banners: Banner[] = [
   {
     id: 'b001',
     text: "Valentine's Special: 15% OFF on all Flower Bouquets 💐 Use code: LOVE2026",
-    active: true,
+    active: false,
     type: 'offer',
     bgColor: 'bg-pink-600',
   },
   {
     id: 'b002',
     text: '🔥 Trending Now: Mini Animal Keychains - Perfect Gift for Kids!',
-    active: false,
+    active: true,
     type: 'trending',
     bgColor: 'bg-purple-600',
   },
