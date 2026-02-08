@@ -17,24 +17,24 @@ export interface ContactInfo {
 export const banners: Banner[] = [
   {
     id: 'b001',
-    text: "Valentine's Special: 15% OFF on all Flower Bouquets 💐 Use code: LOVE2026",
-    active: false,
-    type: 'offer',
-    bgColor: 'bg-pink-600',
+    text: '✨ New Collection: Handcrafted Crochet Bags - Limited Edition Designs',
+    active: true,
+    type: 'announcement',
+    bgColor: 'bg-gradient-to-r from-purple-600 to-pink-600',
   },
   {
     id: 'b002',
-    text: '🔥 Trending Now: Mini Animal Keychains - Perfect Gift for Kids!',
-    active: true,
+    text: '🔥 Trending: Granny Square Tote Bags - Perfect for Every Occasion',
+    active: false,
     type: 'trending',
-    bgColor: 'bg-purple-600',
+    bgColor: 'bg-gradient-to-r from-teal-600 to-blue-600',
   },
   {
     id: 'b003',
-    text: '✨ New Arrivals: Luxe Collection - Handcrafted with Premium Yarn',
+    text: '💼 Premium Quality: Each Bag Handcrafted with Love & Premium Yarn',
     active: false,
     type: 'announcement',
-    bgColor: 'bg-blue-600',
+    bgColor: 'bg-gradient-to-r from-indigo-600 to-purple-600',
   },
 ];
 
@@ -48,7 +48,7 @@ export const contactInfo: ContactInfo = {
 
 export const siteInfo = {
   brandName: 'Krosha',
-  tagline: 'Handcrafted Crochet Creations',
-  description: 'Premium handmade crochet products made with love. From adorable keychains to elegant bouquets, each piece is uniquely crafted for you.',
-  logo: '🧶',
+  tagline: 'Handcrafted Crochet Bags',
+  description: 'Premium handmade crochet bags crafted with love. Each unique piece combines artistry and functionality, perfect for your everyday style.',
+  logo: '👜',
 };

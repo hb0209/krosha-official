@@ -1,5 +1,5 @@
 import { Star, Quote } from 'lucide-react';
-import { testimonials } from '../config/testimonials';
+import { testimonials, getInitials } from '../config/testimonials';
 
 export const TestimonialsSection = () => {
   const renderStars = (rating: number) => {
@@ -44,11 +44,9 @@ export const TestimonialsSection = () => {
               className="bg-gradient-to-br from-gray-50 to-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
             >
               <div className="flex items-center space-x-4 mb-4">
-                <img
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  className="w-16 h-16 rounded-full object-cover border-2 border-pink-200"
-                />
+                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-bold text-lg shadow-lg border-2 border-white">
+                  {getInitials(testimonial.name)}
+                </div>
                 <div className="flex-1">
                   <h4 className="font-bold text-gray-900">{testimonial.name}</h4>
                   <p className="text-sm text-gray-600">{testimonial.location}</p>
@@ -83,21 +81,21 @@ export const TestimonialsSection = () => {
             Join Our Happy Customers!
           </h3>
           <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-            Every product is crafted with love and care. Experience the joy of owning a unique,
-            handmade creation that lasts forever.
+            Every bag is handcrafted with love and care. Experience the joy of owning a unique,
+            premium crochet bag that combines artistry with functionality.
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-700">
             <div className="flex items-center space-x-2">
               <Star className="fill-yellow-400 text-yellow-400" size={20} />
-              <span className="font-bold">4.8/5 Average Rating</span>
+              <span className="font-bold">5.0/5 Average Rating</span>
             </div>
             <div className="flex items-center space-x-2">
-              <span className="text-2xl">😊</span>
-              <span className="font-bold">500+ Happy Customers</span>
+              <span className="text-2xl">👜</span>
+              <span className="font-bold">300+ Happy Customers</span>
             </div>
             <div className="flex items-center space-x-2">
-              <span className="text-2xl">🎁</span>
-              <span className="font-bold">1000+ Products Delivered</span>
+              <span className="text-2xl">✨</span>
+              <span className="font-bold">Premium Handcrafted Bags</span>
             </div>
           </div>
         </div>

@@ -13,7 +13,7 @@ export const ContactSection = () => {
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Get In Touch</h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Have a question or want to place a custom order? We'd love to hear from you!
+            Have a question about our bags or want to place a custom order? We'd love to hear from you!
           </p>
         </div>
 
@@ -152,9 +152,9 @@ export const ContactSection = () => {
                 <div className="flex items-start space-x-3">
                   <div className="text-2xl">🎁</div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-1">Perfect Gifts</h4>
+                    <h4 className="font-semibold text-gray-900 mb-1">Unique Designs</h4>
                     <p className="text-gray-600 text-sm">
-                      Our products make thoughtful, unique gifts for any occasion
+                      Each bag is a unique piece of art, perfect for expressing your personal style
                     </p>
                   </div>
                 </div>
@@ -164,10 +164,10 @@ export const ContactSection = () => {
 
           <div className="mt-8 bg-white rounded-2xl p-8 shadow-lg text-center">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Ready to Order Your Crochet Creation?
+              Ready to Order Your Perfect Crochet Bag?
             </h3>
             <p className="text-gray-600 mb-6">
-              Click below to start a conversation on WhatsApp and let's bring your ideas to life!
+              Click below to start a conversation on WhatsApp and let's find the perfect bag for you!
             </p>
             <button
               onClick={handleWhatsAppClick}
