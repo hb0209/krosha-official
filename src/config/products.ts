@@ -57,7 +57,7 @@ export const products: Product[] = [
     name: 'Two-Tone Classic Tote',
     code: 'KR-BAG-003',
     categories: ['tote', 'classic'],
-    price: 1199,
+    price: 1599,
     images: [bagImage3],
     rating: 5,
     description: 'Timeless cream and light blue two-tone tote bag with decorative diagonal stitch accents. Clean, minimalist design with integrated handles. Perfect for those who appreciate understated elegance and versatility.',
